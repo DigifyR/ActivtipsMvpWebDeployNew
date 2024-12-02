@@ -9458,7 +9458,7 @@ this.b=c},
 boU(a){switch(a){case"pending":return B.e6
 case"rejected":return B.Fi
 case"cancel":return B.fa
-case"recevied":return B.kE
+case"received":return B.kE
 default:return B.e6}},
 zg:function zg(a,b,c){this.c=a
 this.a=b
@@ -55456,7 +55456,7 @@ i=12*Math.min(i.gI(),i.gE())
 h=$.c()
 h=A.af(8*Math.min(h.gI(),h.gE()))
 g=A.df(a.d===B.kE?B.B:A.o(a2).ax.z,1)
-i=A.aX(!1,!0,A.a1(b,A.B("recevied",b,b,b,b,b,b,b),B.j,b,b,new A.a4(B.h,b,g,h,b,b,B.n),b,b,b,b,new A.a_(i,i,i,i),b,b,b),b,!0,b,b,b,b,b,b,b,b,b,b,new A.apj(a),b,b,b,b)
+i=A.aX(!1,!0,A.a1(b,A.B("received",b,b,b,b,b,b,b),B.j,b,b,new A.a4(B.h,b,g,h,b,b,B.n),b,b,b,b,new A.a_(i,i,i,i),b,b,b),b,!0,b,b,b,b,b,b,b,b,b,b,new A.apj(a),b,b,b,b)
 h=$.c()
 h=12*Math.min(h.gI(),h.gE())
 g=$.c()
@@ -124240,7 +124240,7 @@ B.Fg=new A.Fd(null)
 B.Fh=new A.UE(null)
 B.fa=new A.zg("cancel",3,"cancel")
 B.e6=new A.zg("pending",0,"pending")
-B.kE=new A.zg("recevied",2,"recevied")
+B.kE=new A.zg("received",2,"received")
 B.Fi=new A.zg("rejected",1,"rejected")
 B.R=new A.b_(0,0)
 B.aP=new A.dK(B.R,B.R,B.R,B.R)
